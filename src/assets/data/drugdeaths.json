@@ -1,629 +1,1784 @@
 {
-  "Scotland": {
-    "All drug-related deaths": "1,187",
-    "Heroin / morphine 2": "562",
-    "Methadone": "577",
-    "Heroin / morphine, Methadone or Bupren-orphine": "922",
-    "Codeine or a codeine-containing compound": "102",
-    "Dihydro-codeine or a d.h.c-containing compound": "173",
-    "Any opiate or opioid": "1,060",
-    "Benzodiazepines: Total": "920",
-    "Benzodiazepines: Prescribeable": "486",
-    "Benzodiazepines: Prescribed - Diazepam": "434",
-    "Benzodiazepines: Street": "696",
-    "Benzodiazepines: Street - Etizolam": "559",
-    "Gabapentin and/or Pregabalin": "570",
-    "Cocaine": "324",
-    "Ecstasy-type": "36",
-    "Amphet-amines": "56",
-    "Alcohol": "445"
-  },
-  "Aberdeen City": {
-    "All drug-related deaths": "52",
-    "Heroin / morphine 2": "24",
-    "Methadone": "31",
-    "Heroin / morphine, Methadone or Bupren-orphine": "41",
-    "Codeine or a codeine-containing compound": "4",
-    "Dihydro-codeine or a d.h.c-containing compound": "10",
-    "Any opiate or opioid": "48",
-    "Benzodiazepines: Total": "35",
-    "Benzodiazepines: Prescribeable": "30",
-    "Benzodiazepines: Prescribed - Diazepam": "26",
-    "Benzodiazepines: Street": "20",
-    "Benzodiazepines: Street - Etizolam": "3",
-    "Gabapentin and/or Pregabalin": "20",
-    "Cocaine": "29",
-    "Ecstasy-type": "1",
-    "Amphet-amines": "0",
-    "Alcohol": "24"
-  },
-  "Aberdeenshire": {
-    "All drug-related deaths": "23",
-    "Heroin / morphine 2": "9",
-    "Methadone": "12",
-    "Heroin / morphine, Methadone or Bupren-orphine": "17",
-    "Codeine or a codeine-containing compound": "2",
-    "Dihydro-codeine or a d.h.c-containing compound": "3",
-    "Any opiate or opioid": "20",
-    "Benzodiazepines: Total": "17",
-    "Benzodiazepines: Prescribeable": "17",
-    "Benzodiazepines: Prescribed - Diazepam": "15",
-    "Benzodiazepines: Street": "7",
-    "Benzodiazepines: Street - Etizolam": "1",
-    "Gabapentin and/or Pregabalin": "7",
-    "Cocaine": "14",
-    "Ecstasy-type": "5",
-    "Amphet-amines": "0",
-    "Alcohol": "14"
-  },
-  "Angus": {
-    "All drug-related deaths": "13",
-    "Heroin / morphine 2": "7",
-    "Methadone": "4",
-    "Heroin / morphine, Methadone or Bupren-orphine": "10",
-    "Codeine or a codeine-containing compound": "2",
-    "Dihydro-codeine or a d.h.c-containing compound": "1",
-    "Any opiate or opioid": "11",
-    "Benzodiazepines: Total": "7",
-    "Benzodiazepines: Prescribeable": "4",
-    "Benzodiazepines: Prescribed - Diazepam": "4",
-    "Benzodiazepines: Street": "5",
-    "Benzodiazepines: Street - Etizolam": "5",
-    "Gabapentin and/or Pregabalin": "5",
-    "Cocaine": "1",
-    "Ecstasy-type": "0",
-    "Amphet-amines": "0",
-    "Alcohol": "2"
-  },
-  "Argyll and Bute": {
-    "All drug-related deaths": "9",
-    "Heroin / morphine 2": "5",
-    "Methadone": "2",
-    "Heroin / morphine, Methadone or Bupren-orphine": "6",
-    "Codeine or a codeine-containing compound": "0",
-    "Dihydro-codeine or a d.h.c-containing compound": "0",
-    "Any opiate or opioid": "6",
-    "Benzodiazepines: Total": "7",
-    "Benzodiazepines: Prescribeable": "5",
-    "Benzodiazepines: Prescribed - Diazepam": "3",
-    "Benzodiazepines: Street": "3",
-    "Benzodiazepines: Street - Etizolam": "3",
-    "Gabapentin and/or Pregabalin": "2",
-    "Cocaine": "1",
-    "Ecstasy-type": "1",
-    "Amphet-amines": "0",
-    "Alcohol": "2"
-  },
-  "City of Edinburgh": {
-    "All drug-related deaths": "95",
-    "Heroin / morphine 2": "36",
-    "Methadone": "54",
-    "Heroin / morphine, Methadone or Bupren-orphine": "75",
-    "Codeine or a codeine-containing compound": "5",
-    "Dihydro-codeine or a d.h.c-containing compound": "14",
-    "Any opiate or opioid": "81",
-    "Benzodiazepines: Total": "69",
-    "Benzodiazepines: Prescribeable": "50",
-    "Benzodiazepines: Prescribed - Diazepam": "48",
-    "Benzodiazepines: Street": "48",
-    "Benzodiazepines: Street - Etizolam": "29",
-    "Gabapentin and/or Pregabalin": "47",
-    "Cocaine": "33",
-    "Ecstasy-type": "4",
-    "Amphet-amines": "6",
-    "Alcohol": "42"
-  },
-  "Clackmannanshire": {
-    "All drug-related deaths": "10",
-    "Heroin / morphine 2": "5",
-    "Methadone": "7",
-    "Heroin / morphine, Methadone or Bupren-orphine": "8",
-    "Codeine or a codeine-containing compound": "0",
-    "Dihydro-codeine or a d.h.c-containing compound": "1",
-    "Any opiate or opioid": "8",
-    "Benzodiazepines: Total": "9",
-    "Benzodiazepines: Prescribeable": "1",
-    "Benzodiazepines: Prescribed - Diazepam": "1",
-    "Benzodiazepines: Street": "9",
-    "Benzodiazepines: Street - Etizolam": "8",
-    "Gabapentin and/or Pregabalin": "4",
-    "Cocaine": "2",
-    "Ecstasy-type": "0",
-    "Amphet-amines": "1",
-    "Alcohol": "5"
-  },
-  "Dumfries and Galloway": {
-    "All drug-related deaths": "20",
-    "Heroin / morphine 2": "14",
-    "Methadone": "13",
-    "Heroin / morphine, Methadone or Bupren-orphine": "19",
-    "Codeine or a codeine-containing compound": "0",
-    "Dihydro-codeine or a d.h.c-containing compound": "1",
-    "Any opiate or opioid": "19",
-    "Benzodiazepines: Total": "19",
-    "Benzodiazepines: Prescribeable": "16",
-    "Benzodiazepines: Prescribed - Diazepam": "15",
-    "Benzodiazepines: Street": "12",
-    "Benzodiazepines: Street - Etizolam": "5",
-    "Gabapentin and/or Pregabalin": "12",
-    "Cocaine": "4",
-    "Ecstasy-type": "1",
-    "Amphet-amines": "0",
-    "Alcohol": "7"
-  },
-  "Dundee City": {
-    "All drug-related deaths": "66",
-    "Heroin / morphine 2": "34",
-    "Methadone": "29",
-    "Heroin / morphine, Methadone or Bupren-orphine": "56",
-    "Codeine or a codeine-containing compound": "5",
-    "Dihydro-codeine or a d.h.c-containing compound": "4",
-    "Any opiate or opioid": "59",
-    "Benzodiazepines: Total": "52",
-    "Benzodiazepines: Prescribeable": "19",
-    "Benzodiazepines: Prescribed - Diazepam": "14",
-    "Benzodiazepines: Street": "47",
-    "Benzodiazepines: Street - Etizolam": "43",
-    "Gabapentin and/or Pregabalin": "35",
-    "Cocaine": "13",
-    "Ecstasy-type": "0",
-    "Amphet-amines": "2",
-    "Alcohol": "9"
-  },
-  "East Ayrshire": {
-    "All drug-related deaths": "29",
-    "Heroin / morphine 2": "19",
-    "Methadone": "15",
-    "Heroin / morphine, Methadone or Bupren-orphine": "23",
-    "Codeine or a codeine-containing compound": "0",
-    "Dihydro-codeine or a d.h.c-containing compound": "1",
-    "Any opiate or opioid": "27",
-    "Benzodiazepines: Total": "24",
-    "Benzodiazepines: Prescribeable": "6",
-    "Benzodiazepines: Prescribed - Diazepam": "5",
-    "Benzodiazepines: Street": "21",
-    "Benzodiazepines: Street - Etizolam": "21",
-    "Gabapentin and/or Pregabalin": "15",
-    "Cocaine": "4",
-    "Ecstasy-type": "1",
-    "Amphet-amines": "1",
-    "Alcohol": "5"
-  },
-  "East Dunbartonshire": {
-    "All drug-related deaths": "9",
-    "Heroin / morphine 2": "6",
-    "Methadone": "1",
-    "Heroin / morphine, Methadone or Bupren-orphine": "7",
-    "Codeine or a codeine-containing compound": "1",
-    "Dihydro-codeine or a d.h.c-containing compound": "1",
-    "Any opiate or opioid": "8",
-    "Benzodiazepines: Total": "7",
-    "Benzodiazepines: Prescribeable": "6",
-    "Benzodiazepines: Prescribed - Diazepam": "6",
-    "Benzodiazepines: Street": "5",
-    "Benzodiazepines: Street - Etizolam": "4",
-    "Gabapentin and/or Pregabalin": "3",
-    "Cocaine": "3",
-    "Ecstasy-type": "1",
-    "Amphet-amines": "0",
-    "Alcohol": "5"
-  },
-  "East Lothian": {
-    "All drug-related deaths": "18",
-    "Heroin / morphine 2": "7",
-    "Methadone": "7",
-    "Heroin / morphine, Methadone or Bupren-orphine": "12",
-    "Codeine or a codeine-containing compound": "4",
-    "Dihydro-codeine or a d.h.c-containing compound": "5",
-    "Any opiate or opioid": "16",
-    "Benzodiazepines: Total": "10",
-    "Benzodiazepines: Prescribeable": "9",
-    "Benzodiazepines: Prescribed - Diazepam": "8",
-    "Benzodiazepines: Street": "3",
-    "Benzodiazepines: Street - Etizolam": "2",
-    "Gabapentin and/or Pregabalin": "9",
-    "Cocaine": "6",
-    "Ecstasy-type": "0",
-    "Amphet-amines": "1",
-    "Alcohol": "10"
-  },
-  "East Renfrewshire": {
-    "All drug-related deaths": "11",
-    "Heroin / morphine 2": "5",
-    "Methadone": "2",
-    "Heroin / morphine, Methadone or Bupren-orphine": "9",
-    "Codeine or a codeine-containing compound": "1",
-    "Dihydro-codeine or a d.h.c-containing compound": "3",
-    "Any opiate or opioid": "10",
-    "Benzodiazepines: Total": "8",
-    "Benzodiazepines: Prescribeable": "3",
-    "Benzodiazepines: Prescribed - Diazepam": "3",
-    "Benzodiazepines: Street": "8",
-    "Benzodiazepines: Street - Etizolam": "8",
-    "Gabapentin and/or Pregabalin": "1",
-    "Cocaine": "3",
-    "Ecstasy-type": "1",
-    "Amphet-amines": "1",
-    "Alcohol": "3"
-  },
-  "Falkirk": {
-    "All drug-related deaths": "43",
-    "Heroin / morphine 2": "25",
-    "Methadone": "20",
-    "Heroin / morphine, Methadone or Bupren-orphine": "34",
-    "Codeine or a codeine-containing compound": "8",
-    "Dihydro-codeine or a d.h.c-containing compound": "8",
-    "Any opiate or opioid": "38",
-    "Benzodiazepines: Total": "32",
-    "Benzodiazepines: Prescribeable": "14",
-    "Benzodiazepines: Prescribed - Diazepam": "13",
-    "Benzodiazepines: Street": "25",
-    "Benzodiazepines: Street - Etizolam": "15",
-    "Gabapentin and/or Pregabalin": "18",
-    "Cocaine": "5",
-    "Ecstasy-type": "0",
-    "Amphet-amines": "2",
-    "Alcohol": "17"
-  },
-  "Fife": {
-    "All drug-related deaths": "64",
-    "Heroin / morphine 2": "29",
-    "Methadone": "32",
-    "Heroin / morphine, Methadone or Bupren-orphine": "48",
-    "Codeine or a codeine-containing compound": "7",
-    "Dihydro-codeine or a d.h.c-containing compound": "6",
-    "Any opiate or opioid": "55",
-    "Benzodiazepines: Total": "47",
-    "Benzodiazepines: Prescribeable": "39",
-    "Benzodiazepines: Prescribed - Diazepam": "38",
-    "Benzodiazepines: Street": "23",
-    "Benzodiazepines: Street - Etizolam": "11",
-    "Gabapentin and/or Pregabalin": "39",
-    "Cocaine": "17",
-    "Ecstasy-type": "3",
-    "Amphet-amines": "9",
-    "Alcohol": "19"
-  },
-  "Glasgow City": {
-    "All drug-related deaths": "280",
-    "Heroin / morphine 2": "137",
-    "Methadone": "136",
-    "Heroin / morphine, Methadone or Bupren-orphine": "225",
-    "Codeine or a codeine-containing compound": "25",
-    "Dihydro-codeine or a d.h.c-containing compound": "42",
-    "Any opiate or opioid": "258",
-    "Benzodiazepines: Total": "224",
-    "Benzodiazepines: Prescribeable": "81",
-    "Benzodiazepines: Prescribed - Diazepam": "70",
-    "Benzodiazepines: Street": "197",
-    "Benzodiazepines: Street - Etizolam": "190",
-    "Gabapentin and/or Pregabalin": "123",
-    "Cocaine": "77",
-    "Ecstasy-type": "4",
-    "Amphet-amines": "9",
-    "Alcohol": "109"
-  },
-  "Highland": {
-    "All drug-related deaths": "36",
-    "Heroin / morphine 2": "8",
-    "Methadone": "18",
-    "Heroin / morphine, Methadone or Bupren-orphine": "25",
-    "Codeine or a codeine-containing compound": "0",
-    "Dihydro-codeine or a d.h.c-containing compound": "6",
-    "Any opiate or opioid": "31",
-    "Benzodiazepines: Total": "30",
-    "Benzodiazepines: Prescribeable": "25",
-    "Benzodiazepines: Prescribed - Diazepam": "19",
-    "Benzodiazepines: Street": "13",
-    "Benzodiazepines: Street - Etizolam": "2",
-    "Gabapentin and/or Pregabalin": "15",
-    "Cocaine": "11",
-    "Ecstasy-type": "1",
-    "Amphet-amines": "4",
-    "Alcohol": "7"
-  },
-  "Inverclyde": {
-    "All drug-related deaths": "24",
-    "Heroin / morphine 2": "8",
-    "Methadone": "13",
-    "Heroin / morphine, Methadone or Bupren-orphine": "17",
-    "Codeine or a codeine-containing compound": "4",
-    "Dihydro-codeine or a d.h.c-containing compound": "4",
-    "Any opiate or opioid": "22",
-    "Benzodiazepines: Total": "21",
-    "Benzodiazepines: Prescribeable": "10",
-    "Benzodiazepines: Prescribed - Diazepam": "9",
-    "Benzodiazepines: Street": "17",
-    "Benzodiazepines: Street - Etizolam": "13",
-    "Gabapentin and/or Pregabalin": "12",
-    "Cocaine": "8",
-    "Ecstasy-type": "0",
-    "Amphet-amines": "1",
-    "Alcohol": "9"
-  },
-  "Midlothian": {
-    "All drug-related deaths": "14",
-    "Heroin / morphine 2": "5",
-    "Methadone": "8",
-    "Heroin / morphine, Methadone or Bupren-orphine": "10",
-    "Codeine or a codeine-containing compound": "0",
-    "Dihydro-codeine or a d.h.c-containing compound": "5",
-    "Any opiate or opioid": "13",
-    "Benzodiazepines: Total": "11",
-    "Benzodiazepines: Prescribeable": "6",
-    "Benzodiazepines: Prescribed - Diazepam": "5",
-    "Benzodiazepines: Street": "7",
-    "Benzodiazepines: Street - Etizolam": "5",
-    "Gabapentin and/or Pregabalin": "7",
-    "Cocaine": "3",
-    "Ecstasy-type": "0",
-    "Amphet-amines": "0",
-    "Alcohol": "2"
-  },
-  "Moray": {
-    "All drug-related deaths": "17",
-    "Heroin / morphine 2": "7",
-    "Methadone": "8",
-    "Heroin / morphine, Methadone or Bupren-orphine": "12",
-    "Codeine or a codeine-containing compound": "1",
-    "Dihydro-codeine or a d.h.c-containing compound": "3",
-    "Any opiate or opioid": "15",
-    "Benzodiazepines: Total": "11",
-    "Benzodiazepines: Prescribeable": "10",
-    "Benzodiazepines: Prescribed - Diazepam": "8",
-    "Benzodiazepines: Street": "6",
-    "Benzodiazepines: Street - Etizolam": "2",
-    "Gabapentin and/or Pregabalin": "9",
-    "Cocaine": "1",
-    "Ecstasy-type": "1",
-    "Amphet-amines": "3",
-    "Alcohol": "8"
-  },
-  "Eilean Siar": {
-    "All drug-related deaths": "2",
-    "Heroin / morphine 2": "0",
-    "Methadone": "0",
-    "Heroin / morphine, Methadone or Bupren-orphine": "0",
-    "Codeine or a codeine-containing compound": "1",
-    "Dihydro-codeine or a d.h.c-containing compound": "0",
-    "Any opiate or opioid": "1",
-    "Benzodiazepines: Total": "1",
-    "Benzodiazepines: Prescribeable": "1",
-    "Benzodiazepines: Prescribed - Diazepam": "1",
-    "Benzodiazepines: Street": "0",
-    "Benzodiazepines: Street - Etizolam": "0",
-    "Gabapentin and/or Pregabalin": "1",
-    "Cocaine": "0",
-    "Ecstasy-type": "1",
-    "Amphet-amines": "0",
-    "Alcohol": "0"
-  },
-  "North Ayrshire": {
-    "All drug-related deaths": "38",
-    "Heroin / morphine 2": "15",
-    "Methadone": "29",
-    "Heroin / morphine, Methadone or Bupren-orphine": "33",
-    "Codeine or a codeine-containing compound": "0",
-    "Dihydro-codeine or a d.h.c-containing compound": "3",
-    "Any opiate or opioid": "33",
-    "Benzodiazepines: Total": "33",
-    "Benzodiazepines: Prescribeable": "18",
-    "Benzodiazepines: Prescribed - Diazepam": "18",
-    "Benzodiazepines: Street": "29",
-    "Benzodiazepines: Street - Etizolam": "26",
-    "Gabapentin and/or Pregabalin": "30",
-    "Cocaine": "6",
-    "Ecstasy-type": "1",
-    "Amphet-amines": "3",
-    "Alcohol": "20"
-  },
-  "North Lanarkshire": {
-    "All drug-related deaths": "72",
-    "Heroin / morphine 2": "37",
-    "Methadone": "29",
-    "Heroin / morphine, Methadone or Bupren-orphine": "51",
-    "Codeine or a codeine-containing compound": "11",
-    "Dihydro-codeine or a d.h.c-containing compound": "16",
-    "Any opiate or opioid": "64",
-    "Benzodiazepines: Total": "59",
-    "Benzodiazepines: Prescribeable": "20",
-    "Benzodiazepines: Prescribed - Diazepam": "18",
-    "Benzodiazepines: Street": "50",
-    "Benzodiazepines: Street - Etizolam": "48",
-    "Gabapentin and/or Pregabalin": "39",
-    "Cocaine": "22",
-    "Ecstasy-type": "1",
-    "Amphet-amines": "1",
-    "Alcohol": "29"
-  },
-  "Orkney Islands": {
-    "All drug-related deaths": "3",
-    "Heroin / morphine 2": "1",
-    "Methadone": "0",
-    "Heroin / morphine, Methadone or Bupren-orphine": "1",
-    "Codeine or a codeine-containing compound": "0",
-    "Dihydro-codeine or a d.h.c-containing compound": "2",
-    "Any opiate or opioid": "2",
-    "Benzodiazepines: Total": "1",
-    "Benzodiazepines: Prescribeable": "1",
-    "Benzodiazepines: Prescribed - Diazepam": "0",
-    "Benzodiazepines: Street": "0",
-    "Benzodiazepines: Street - Etizolam": "0",
-    "Gabapentin and/or Pregabalin": "0",
-    "Cocaine": "0",
-    "Ecstasy-type": "1",
-    "Amphet-amines": "0",
-    "Alcohol": "1"
-  },
-  "Perth and Kinross": {
-    "All drug-related deaths": "30",
-    "Heroin / morphine 2": "12",
-    "Methadone": "9",
-    "Heroin / morphine, Methadone or Bupren-orphine": "20",
-    "Codeine or a codeine-containing compound": "2",
-    "Dihydro-codeine or a d.h.c-containing compound": "4",
-    "Any opiate or opioid": "27",
-    "Benzodiazepines: Total": "22",
-    "Benzodiazepines: Prescribeable": "15",
-    "Benzodiazepines: Prescribed - Diazepam": "14",
-    "Benzodiazepines: Street": "9",
-    "Benzodiazepines: Street - Etizolam": "5",
-    "Gabapentin and/or Pregabalin": "18",
-    "Cocaine": "7",
-    "Ecstasy-type": "1",
-    "Amphet-amines": "0",
-    "Alcohol": "4"
-  },
-  "Renfrewshire": {
-    "All drug-related deaths": "50",
-    "Heroin / morphine 2": "23",
-    "Methadone": "27",
-    "Heroin / morphine, Methadone or Bupren-orphine": "44",
-    "Codeine or a codeine-containing compound": "3",
-    "Dihydro-codeine or a d.h.c-containing compound": "5",
-    "Any opiate or opioid": "47",
-    "Benzodiazepines: Total": "41",
-    "Benzodiazepines: Prescribeable": "22",
-    "Benzodiazepines: Prescribed - Diazepam": "19",
-    "Benzodiazepines: Street": "36",
-    "Benzodiazepines: Street - Etizolam": "36",
-    "Gabapentin and/or Pregabalin": "24",
-    "Cocaine": "10",
-    "Ecstasy-type": "0",
-    "Amphet-amines": "3",
-    "Alcohol": "26"
-  },
-  "Scottish Borders": {
-    "All drug-related deaths": "22",
-    "Heroin / morphine 2": "10",
-    "Methadone": "9",
-    "Heroin / morphine, Methadone or Bupren-orphine": "16",
-    "Codeine or a codeine-containing compound": "0",
-    "Dihydro-codeine or a d.h.c-containing compound": "5",
-    "Any opiate or opioid": "20",
-    "Benzodiazepines: Total": "19",
-    "Benzodiazepines: Prescribeable": "12",
-    "Benzodiazepines: Prescribed - Diazepam": "12",
-    "Benzodiazepines: Street": "9",
-    "Benzodiazepines: Street - Etizolam": "4",
-    "Gabapentin and/or Pregabalin": "14",
-    "Cocaine": "7",
-    "Ecstasy-type": "3",
-    "Amphet-amines": "4",
-    "Alcohol": "7"
-  },
-  "Shetland Islands": {
-    "All drug-related deaths": "0",
-    "Heroin / morphine 2": "0",
-    "Methadone": "0",
-    "Heroin / morphine, Methadone or Bupren-orphine": "0",
-    "Codeine or a codeine-containing compound": "0",
-    "Dihydro-codeine or a d.h.c-containing compound": "0",
-    "Any opiate or opioid": "0",
-    "Benzodiazepines: Total": "0",
-    "Benzodiazepines: Prescribeable": "0",
-    "Benzodiazepines: Prescribed - Diazepam": "0",
-    "Benzodiazepines: Street": "0",
-    "Benzodiazepines: Street - Etizolam": "0",
-    "Gabapentin and/or Pregabalin": "0",
-    "Cocaine": "0",
-    "Ecstasy-type": "0",
-    "Amphet-amines": "0",
-    "Alcohol": "0"
-  },
-  "South Ayrshire": {
-    "All drug-related deaths": "15",
-    "Heroin / morphine 2": "12",
-    "Methadone": "13",
-    "Heroin / morphine, Methadone or Bupren-orphine": "15",
-    "Codeine or a codeine-containing compound": "1",
-    "Dihydro-codeine or a d.h.c-containing compound": "4",
-    "Any opiate or opioid": "15",
-    "Benzodiazepines: Total": "13",
-    "Benzodiazepines: Prescribeable": "4",
-    "Benzodiazepines: Prescribed - Diazepam": "4",
-    "Benzodiazepines: Street": "12",
-    "Benzodiazepines: Street - Etizolam": "11",
-    "Gabapentin and/or Pregabalin": "11",
-    "Cocaine": "2",
-    "Ecstasy-type": "0",
-    "Amphet-amines": "1",
-    "Alcohol": "6"
-  },
-  "South Lanarkshire": {
-    "All drug-related deaths": "58",
-    "Heroin / morphine 2": "26",
-    "Methadone": "27",
-    "Heroin / morphine, Methadone or Bupren-orphine": "38",
-    "Codeine or a codeine-containing compound": "10",
-    "Dihydro-codeine or a d.h.c-containing compound": "10",
-    "Any opiate or opioid": "48",
-    "Benzodiazepines: Total": "42",
-    "Benzodiazepines: Prescribeable": "18",
-    "Benzodiazepines: Prescribed - Diazepam": "16",
-    "Benzodiazepines: Street": "38",
-    "Benzodiazepines: Street - Etizolam": "32",
-    "Gabapentin and/or Pregabalin": "25",
-    "Cocaine": "12",
-    "Ecstasy-type": "3",
-    "Amphet-amines": "4",
-    "Alcohol": "26"
-  },
-  "Stirling": {
-    "All drug-related deaths": "19",
-    "Heroin / morphine 2": "12",
-    "Methadone": "8",
-    "Heroin / morphine, Methadone or Bupren-orphine": "14",
-    "Codeine or a codeine-containing compound": "2",
-    "Dihydro-codeine or a d.h.c-containing compound": "1",
-    "Any opiate or opioid": "18",
-    "Benzodiazepines: Total": "15",
-    "Benzodiazepines: Prescribeable": "8",
-    "Benzodiazepines: Prescribed - Diazepam": "7",
-    "Benzodiazepines: Street": "12",
-    "Benzodiazepines: Street - Etizolam": "10",
-    "Gabapentin and/or Pregabalin": "6",
-    "Cocaine": "6",
-    "Ecstasy-type": "0",
-    "Amphet-amines": "0",
-    "Alcohol": "8"
-  },
-  "West Dunbartonshire": {
-    "All drug-related deaths": "20",
-    "Heroin / morphine 2": "12",
-    "Methadone": "6",
-    "Heroin / morphine, Methadone or Bupren-orphine": "17",
-    "Codeine or a codeine-containing compound": "1",
-    "Dihydro-codeine or a d.h.c-containing compound": "1",
-    "Any opiate or opioid": "18",
-    "Benzodiazepines: Total": "16",
-    "Benzodiazepines: Prescribeable": "5",
-    "Benzodiazepines: Prescribed - Diazepam": "4",
-    "Benzodiazepines: Street": "13",
-    "Benzodiazepines: Street - Etizolam": "11",
-    "Gabapentin and/or Pregabalin": "9",
-    "Cocaine": "8",
-    "Ecstasy-type": "0",
-    "Amphet-amines": "0",
-    "Alcohol": "10"
-  },
-  "West Lothian": {
-    "All drug-related deaths": "25",
-    "Heroin / morphine 2": "12",
-    "Methadone": "8",
-    "Heroin / morphine, Methadone or Bupren-orphine": "19",
-    "Codeine or a codeine-containing compound": "2",
-    "Dihydro-codeine or a d.h.c-containing compound": "4",
-    "Any opiate or opioid": "22",
-    "Benzodiazepines: Total": "18",
-    "Benzodiazepines: Prescribeable": "11",
-    "Benzodiazepines: Prescribed - Diazepam": "11",
-    "Benzodiazepines: Street": "12",
-    "Benzodiazepines: Street - Etizolam": "6",
-    "Gabapentin and/or Pregabalin": "10",
-    "Cocaine": "9",
-    "Ecstasy-type": "1",
-    "Amphet-amines": "0",
-    "Alcohol": "9"
-  }
+  "Scotland": [
+    {
+      "label": "All drug-related deaths",
+      "deaths": "1187"
+    },
+    {
+      "label": "Heroin/morphine 2",
+      "deaths": "562"
+    },
+    {
+      "label": "Methadone",
+      "deaths": "577"
+    },
+    {
+      "label": "Heroin/morpine, Methadone or Buprenorphine",
+      "deaths": "922"
+    },
+    {
+      "label": "Codeine or a codeine-containing compound",
+      "deaths": "102"
+    },
+    {
+      "label": "Dihydro-codeine or a d.h.c-containing compound",
+      "deaths": "173"
+    },
+    {
+      "label": "Any opiate or opioid",
+      "deaths": "1060"
+    },
+    {
+      "label": "Benzodiazepines",
+      "deaths": "920"
+    },
+    {
+      "label": "Gabapentin and/or Pregabalin",
+      "deaths": "570"
+    },
+    {
+      "label": "Cocaine",
+      "deaths": "324"
+    },
+    {
+      "label": "Ecstasy-type",
+      "deaths": "36"
+    },
+    {
+      "label": "Amphetamines",
+      "deaths": "56"
+    },
+    {
+      "label": "Alcohol",
+      "deaths": "445"
+    }
+  ],
+  "Aberdeen City": [
+    {
+      "label": "All drug-related deaths",
+      "deaths": "52"
+    },
+    {
+      "label": "Heroin/morphine 2",
+      "deaths": "24"
+    },
+    {
+      "label": "Methadone",
+      "deaths": "31"
+    },
+    {
+      "label": "Heroin/morpine, Methadone or Buprenorphine",
+      "deaths": "41"
+    },
+    {
+      "label": "Codeine or a codeine-containing compound",
+      "deaths": "4"
+    },
+    {
+      "label": "Dihydro-codeine or a d.h.c-containing compound",
+      "deaths": "10"
+    },
+    {
+      "label": "Any opiate or opioid",
+      "deaths": "48"
+    },
+    {
+      "label": "Benzodiazepines",
+      "deaths": "35"
+    },
+    {
+      "label": "Gabapentin and/or Pregabalin",
+      "deaths": "20"
+    },
+    {
+      "label": "Cocaine",
+      "deaths": "29"
+    },
+    {
+      "label": "Ecstasy-type",
+      "deaths": "1"
+    },
+    {
+      "label": "Amphetamines",
+      "deaths": "0"
+    },
+    {
+      "label": "Alcohol",
+      "deaths": "24"
+    }
+  ],
+  "Aberdeenshire": [
+    {
+      "label": "All drug-related deaths",
+      "deaths": "23"
+    },
+    {
+      "label": "Heroin/morphine 2",
+      "deaths": "9"
+    },
+    {
+      "label": "Methadone",
+      "deaths": "12"
+    },
+    {
+      "label": "Heroin/morpine, Methadone or Buprenorphine",
+      "deaths": "17"
+    },
+    {
+      "label": "Codeine or a codeine-containing compound",
+      "deaths": "2"
+    },
+    {
+      "label": "Dihydro-codeine or a d.h.c-containing compound",
+      "deaths": "3"
+    },
+    {
+      "label": "Any opiate or opioid",
+      "deaths": "20"
+    },
+    {
+      "label": "Benzodiazepines",
+      "deaths": "17"
+    },
+    {
+      "label": "Gabapentin and/or Pregabalin",
+      "deaths": "7"
+    },
+    {
+      "label": "Cocaine",
+      "deaths": "14"
+    },
+    {
+      "label": "Ecstasy-type",
+      "deaths": "5"
+    },
+    {
+      "label": "Amphetamines",
+      "deaths": "0"
+    },
+    {
+      "label": "Alcohol",
+      "deaths": "14"
+    }
+  ],
+  "Angus": [
+    {
+      "label": "All drug-related deaths",
+      "deaths": "13"
+    },
+    {
+      "label": "Heroin/morphine 2",
+      "deaths": "7"
+    },
+    {
+      "label": "Methadone",
+      "deaths": "4"
+    },
+    {
+      "label": "Heroin/morpine, Methadone or Buprenorphine",
+      "deaths": "10"
+    },
+    {
+      "label": "Codeine or a codeine-containing compound",
+      "deaths": "2"
+    },
+    {
+      "label": "Dihydro-codeine or a d.h.c-containing compound",
+      "deaths": "1"
+    },
+    {
+      "label": "Any opiate or opioid",
+      "deaths": "11"
+    },
+    {
+      "label": "Benzodiazepines",
+      "deaths": "7"
+    },
+    {
+      "label": "Gabapentin and/or Pregabalin",
+      "deaths": "5"
+    },
+    {
+      "label": "Cocaine",
+      "deaths": "1"
+    },
+    {
+      "label": "Ecstasy-type",
+      "deaths": "0"
+    },
+    {
+      "label": "Amphetamines",
+      "deaths": "0"
+    },
+    {
+      "label": "Alcohol",
+      "deaths": "2"
+    }
+  ],
+  "Argyll and Bute": [
+    {
+      "label": "All drug-related deaths",
+      "deaths": "9"
+    },
+    {
+      "label": "Heroin/morphine 2",
+      "deaths": "5"
+    },
+    {
+      "label": "Methadone",
+      "deaths": "2"
+    },
+    {
+      "label": "Heroin/morpine, Methadone or Buprenorphine",
+      "deaths": "6"
+    },
+    {
+      "label": "Codeine or a codeine-containing compound",
+      "deaths": "0"
+    },
+    {
+      "label": "Dihydro-codeine or a d.h.c-containing compound",
+      "deaths": "0"
+    },
+    {
+      "label": "Any opiate or opioid",
+      "deaths": "6"
+    },
+    {
+      "label": "Benzodiazepines",
+      "deaths": "7"
+    },
+    {
+      "label": "Gabapentin and/or Pregabalin",
+      "deaths": "2"
+    },
+    {
+      "label": "Cocaine",
+      "deaths": "1"
+    },
+    {
+      "label": "Ecstasy-type",
+      "deaths": "1"
+    },
+    {
+      "label": "Amphetamines",
+      "deaths": "0"
+    },
+    {
+      "label": "Alcohol",
+      "deaths": "2"
+    }
+  ],
+  "City of Edinburgh": [
+    {
+      "label": "All drug-related deaths",
+      "deaths": "95"
+    },
+    {
+      "label": "Heroin/morphine 2",
+      "deaths": "36"
+    },
+    {
+      "label": "Methadone",
+      "deaths": "54"
+    },
+    {
+      "label": "Heroin/morpine, Methadone or Buprenorphine",
+      "deaths": "75"
+    },
+    {
+      "label": "Codeine or a codeine-containing compound",
+      "deaths": "5"
+    },
+    {
+      "label": "Dihydro-codeine or a d.h.c-containing compound",
+      "deaths": "14"
+    },
+    {
+      "label": "Any opiate or opioid",
+      "deaths": "81"
+    },
+    {
+      "label": "Benzodiazepines",
+      "deaths": "69"
+    },
+    {
+      "label": "Gabapentin and/or Pregabalin",
+      "deaths": "47"
+    },
+    {
+      "label": "Cocaine",
+      "deaths": "33"
+    },
+    {
+      "label": "Ecstasy-type",
+      "deaths": "4"
+    },
+    {
+      "label": "Amphetamines",
+      "deaths": "6"
+    },
+    {
+      "label": "Alcohol",
+      "deaths": "42"
+    }
+  ],
+  "Clackmannanshire": [
+    {
+      "label": "All drug-related deaths",
+      "deaths": "10"
+    },
+    {
+      "label": "Heroin/morphine 2",
+      "deaths": "5"
+    },
+    {
+      "label": "Methadone",
+      "deaths": "7"
+    },
+    {
+      "label": "Heroin/morpine, Methadone or Buprenorphine",
+      "deaths": "8"
+    },
+    {
+      "label": "Codeine or a codeine-containing compound",
+      "deaths": "0"
+    },
+    {
+      "label": "Dihydro-codeine or a d.h.c-containing compound",
+      "deaths": "1"
+    },
+    {
+      "label": "Any opiate or opioid",
+      "deaths": "8"
+    },
+    {
+      "label": "Benzodiazepines",
+      "deaths": "9"
+    },
+    {
+      "label": "Gabapentin and/or Pregabalin",
+      "deaths": "4"
+    },
+    {
+      "label": "Cocaine",
+      "deaths": "2"
+    },
+    {
+      "label": "Ecstasy-type",
+      "deaths": "0"
+    },
+    {
+      "label": "Amphetamines",
+      "deaths": "1"
+    },
+    {
+      "label": "Alcohol",
+      "deaths": "5"
+    }
+  ],
+  "Dumfries and Galloway": [
+    {
+      "label": "All drug-related deaths",
+      "deaths": "20"
+    },
+    {
+      "label": "Heroin/morphine 2",
+      "deaths": "14"
+    },
+    {
+      "label": "Methadone",
+      "deaths": "13"
+    },
+    {
+      "label": "Heroin/morpine, Methadone or Buprenorphine",
+      "deaths": "19"
+    },
+    {
+      "label": "Codeine or a codeine-containing compound",
+      "deaths": "0"
+    },
+    {
+      "label": "Dihydro-codeine or a d.h.c-containing compound",
+      "deaths": "1"
+    },
+    {
+      "label": "Any opiate or opioid",
+      "deaths": "19"
+    },
+    {
+      "label": "Benzodiazepines",
+      "deaths": "19"
+    },
+    {
+      "label": "Gabapentin and/or Pregabalin",
+      "deaths": "12"
+    },
+    {
+      "label": "Cocaine",
+      "deaths": "4"
+    },
+    {
+      "label": "Ecstasy-type",
+      "deaths": "1"
+    },
+    {
+      "label": "Amphetamines",
+      "deaths": "0"
+    },
+    {
+      "label": "Alcohol",
+      "deaths": "7"
+    }
+  ],
+  "Dundee City": [
+    {
+      "label": "All drug-related deaths",
+      "deaths": "66"
+    },
+    {
+      "label": "Heroin/morphine 2",
+      "deaths": "34"
+    },
+    {
+      "label": "Methadone",
+      "deaths": "29"
+    },
+    {
+      "label": "Heroin/morpine, Methadone or Buprenorphine",
+      "deaths": "56"
+    },
+    {
+      "label": "Codeine or a codeine-containing compound",
+      "deaths": "5"
+    },
+    {
+      "label": "Dihydro-codeine or a d.h.c-containing compound",
+      "deaths": "4"
+    },
+    {
+      "label": "Any opiate or opioid",
+      "deaths": "59"
+    },
+    {
+      "label": "Benzodiazepines",
+      "deaths": "52"
+    },
+    {
+      "label": "Gabapentin and/or Pregabalin",
+      "deaths": "35"
+    },
+    {
+      "label": "Cocaine",
+      "deaths": "13"
+    },
+    {
+      "label": "Ecstasy-type",
+      "deaths": "0"
+    },
+    {
+      "label": "Amphetamines",
+      "deaths": "2"
+    },
+    {
+      "label": "Alcohol",
+      "deaths": "9"
+    }
+  ],
+  "East Ayrshire": [
+    {
+      "label": "All drug-related deaths",
+      "deaths": "29"
+    },
+    {
+      "label": "Heroin/morphine 2",
+      "deaths": "19"
+    },
+    {
+      "label": "Methadone",
+      "deaths": "15"
+    },
+    {
+      "label": "Heroin/morpine, Methadone or Buprenorphine",
+      "deaths": "23"
+    },
+    {
+      "label": "Codeine or a codeine-containing compound",
+      "deaths": "0"
+    },
+    {
+      "label": "Dihydro-codeine or a d.h.c-containing compound",
+      "deaths": "1"
+    },
+    {
+      "label": "Any opiate or opioid",
+      "deaths": "27"
+    },
+    {
+      "label": "Benzodiazepines",
+      "deaths": "24"
+    },
+    {
+      "label": "Gabapentin and/or Pregabalin",
+      "deaths": "15"
+    },
+    {
+      "label": "Cocaine",
+      "deaths": "4"
+    },
+    {
+      "label": "Ecstasy-type",
+      "deaths": "1"
+    },
+    {
+      "label": "Amphetamines",
+      "deaths": "1"
+    },
+    {
+      "label": "Alcohol",
+      "deaths": "5"
+    }
+  ],
+  "East Dunbartonshire": [
+    {
+      "label": "All drug-related deaths",
+      "deaths": "9"
+    },
+    {
+      "label": "Heroin/morphine 2",
+      "deaths": "6"
+    },
+    {
+      "label": "Methadone",
+      "deaths": "1"
+    },
+    {
+      "label": "Heroin/morpine, Methadone or Buprenorphine",
+      "deaths": "7"
+    },
+    {
+      "label": "Codeine or a codeine-containing compound",
+      "deaths": "1"
+    },
+    {
+      "label": "Dihydro-codeine or a d.h.c-containing compound",
+      "deaths": "1"
+    },
+    {
+      "label": "Any opiate or opioid",
+      "deaths": "8"
+    },
+    {
+      "label": "Benzodiazepines",
+      "deaths": "7"
+    },
+    {
+      "label": "Gabapentin and/or Pregabalin",
+      "deaths": "3"
+    },
+    {
+      "label": "Cocaine",
+      "deaths": "3"
+    },
+    {
+      "label": "Ecstasy-type",
+      "deaths": "1"
+    },
+    {
+      "label": "Amphetamines",
+      "deaths": "0"
+    },
+    {
+      "label": "Alcohol",
+      "deaths": "5"
+    }
+  ],
+  "East Lothian": [
+    {
+      "label": "All drug-related deaths",
+      "deaths": "18"
+    },
+    {
+      "label": "Heroin/morphine 2",
+      "deaths": "7"
+    },
+    {
+      "label": "Methadone",
+      "deaths": "7"
+    },
+    {
+      "label": "Heroin/morpine, Methadone or Buprenorphine",
+      "deaths": "12"
+    },
+    {
+      "label": "Codeine or a codeine-containing compound",
+      "deaths": "4"
+    },
+    {
+      "label": "Dihydro-codeine or a d.h.c-containing compound",
+      "deaths": "5"
+    },
+    {
+      "label": "Any opiate or opioid",
+      "deaths": "16"
+    },
+    {
+      "label": "Benzodiazepines",
+      "deaths": "10"
+    },
+    {
+      "label": "Gabapentin and/or Pregabalin",
+      "deaths": "9"
+    },
+    {
+      "label": "Cocaine",
+      "deaths": "6"
+    },
+    {
+      "label": "Ecstasy-type",
+      "deaths": "0"
+    },
+    {
+      "label": "Amphetamines",
+      "deaths": "1"
+    },
+    {
+      "label": "Alcohol",
+      "deaths": "10"
+    }
+  ],
+  "East Renfrewshire": [
+    {
+      "label": "All drug-related deaths",
+      "deaths": "11"
+    },
+    {
+      "label": "Heroin/morphine 2",
+      "deaths": "5"
+    },
+    {
+      "label": "Methadone",
+      "deaths": "2"
+    },
+    {
+      "label": "Heroin/morpine, Methadone or Buprenorphine",
+      "deaths": "9"
+    },
+    {
+      "label": "Codeine or a codeine-containing compound",
+      "deaths": "1"
+    },
+    {
+      "label": "Dihydro-codeine or a d.h.c-containing compound",
+      "deaths": "3"
+    },
+    {
+      "label": "Any opiate or opioid",
+      "deaths": "10"
+    },
+    {
+      "label": "Benzodiazepines",
+      "deaths": "8"
+    },
+    {
+      "label": "Gabapentin and/or Pregabalin",
+      "deaths": "1"
+    },
+    {
+      "label": "Cocaine",
+      "deaths": "3"
+    },
+    {
+      "label": "Ecstasy-type",
+      "deaths": "1"
+    },
+    {
+      "label": "Amphetamines",
+      "deaths": "1"
+    },
+    {
+      "label": "Alcohol",
+      "deaths": "3"
+    }
+  ],
+  "Falkirk": [
+    {
+      "label": "All drug-related deaths",
+      "deaths": "43"
+    },
+    {
+      "label": "Heroin/morphine 2",
+      "deaths": "25"
+    },
+    {
+      "label": "Methadone",
+      "deaths": "20"
+    },
+    {
+      "label": "Heroin/morpine, Methadone or Buprenorphine",
+      "deaths": "34"
+    },
+    {
+      "label": "Codeine or a codeine-containing compound",
+      "deaths": "8"
+    },
+    {
+      "label": "Dihydro-codeine or a d.h.c-containing compound",
+      "deaths": "8"
+    },
+    {
+      "label": "Any opiate or opioid",
+      "deaths": "38"
+    },
+    {
+      "label": "Benzodiazepines",
+      "deaths": "32"
+    },
+    {
+      "label": "Gabapentin and/or Pregabalin",
+      "deaths": "18"
+    },
+    {
+      "label": "Cocaine",
+      "deaths": "5"
+    },
+    {
+      "label": "Ecstasy-type",
+      "deaths": "0"
+    },
+    {
+      "label": "Amphetamines",
+      "deaths": "2"
+    },
+    {
+      "label": "Alcohol",
+      "deaths": "17"
+    }
+  ],
+  "Fife": [
+    {
+      "label": "All drug-related deaths",
+      "deaths": "64"
+    },
+    {
+      "label": "Heroin/morphine 2",
+      "deaths": "29"
+    },
+    {
+      "label": "Methadone",
+      "deaths": "32"
+    },
+    {
+      "label": "Heroin/morpine, Methadone or Buprenorphine",
+      "deaths": "48"
+    },
+    {
+      "label": "Codeine or a codeine-containing compound",
+      "deaths": "7"
+    },
+    {
+      "label": "Dihydro-codeine or a d.h.c-containing compound",
+      "deaths": "6"
+    },
+    {
+      "label": "Any opiate or opioid",
+      "deaths": "55"
+    },
+    {
+      "label": "Benzodiazepines",
+      "deaths": "47"
+    },
+    {
+      "label": "Gabapentin and/or Pregabalin",
+      "deaths": "39"
+    },
+    {
+      "label": "Cocaine",
+      "deaths": "17"
+    },
+    {
+      "label": "Ecstasy-type",
+      "deaths": "3"
+    },
+    {
+      "label": "Amphetamines",
+      "deaths": "9"
+    },
+    {
+      "label": "Alcohol",
+      "deaths": "19"
+    }
+  ],
+  "Glasgow City": [
+    {
+      "label": "All drug-related deaths",
+      "deaths": "280"
+    },
+    {
+      "label": "Heroin/morphine 2",
+      "deaths": "137"
+    },
+    {
+      "label": "Methadone",
+      "deaths": "136"
+    },
+    {
+      "label": "Heroin/morpine, Methadone or Buprenorphine",
+      "deaths": "225"
+    },
+    {
+      "label": "Codeine or a codeine-containing compound",
+      "deaths": "25"
+    },
+    {
+      "label": "Dihydro-codeine or a d.h.c-containing compound",
+      "deaths": "42"
+    },
+    {
+      "label": "Any opiate or opioid",
+      "deaths": "258"
+    },
+    {
+      "label": "Benzodiazepines",
+      "deaths": "224"
+    },
+    {
+      "label": "Gabapentin and/or Pregabalin",
+      "deaths": "123"
+    },
+    {
+      "label": "Cocaine",
+      "deaths": "77"
+    },
+    {
+      "label": "Ecstasy-type",
+      "deaths": "4"
+    },
+    {
+      "label": "Amphetamines",
+      "deaths": "9"
+    },
+    {
+      "label": "Alcohol",
+      "deaths": "109"
+    }
+  ],
+  "Highland": [
+    {
+      "label": "All drug-related deaths",
+      "deaths": "36"
+    },
+    {
+      "label": "Heroin/morphine 2",
+      "deaths": "8"
+    },
+    {
+      "label": "Methadone",
+      "deaths": "18"
+    },
+    {
+      "label": "Heroin/morpine, Methadone or Buprenorphine",
+      "deaths": "25"
+    },
+    {
+      "label": "Codeine or a codeine-containing compound",
+      "deaths": "0"
+    },
+    {
+      "label": "Dihydro-codeine or a d.h.c-containing compound",
+      "deaths": "6"
+    },
+    {
+      "label": "Any opiate or opioid",
+      "deaths": "31"
+    },
+    {
+      "label": "Benzodiazepines",
+      "deaths": "30"
+    },
+    {
+      "label": "Gabapentin and/or Pregabalin",
+      "deaths": "15"
+    },
+    {
+      "label": "Cocaine",
+      "deaths": "11"
+    },
+    {
+      "label": "Ecstasy-type",
+      "deaths": "1"
+    },
+    {
+      "label": "Amphetamines",
+      "deaths": "4"
+    },
+    {
+      "label": "Alcohol",
+      "deaths": "7"
+    }
+  ],
+  "Inverclyde": [
+    {
+      "label": "All drug-related deaths",
+      "deaths": "24"
+    },
+    {
+      "label": "Heroin/morphine 2",
+      "deaths": "8"
+    },
+    {
+      "label": "Methadone",
+      "deaths": "13"
+    },
+    {
+      "label": "Heroin/morpine, Methadone or Buprenorphine",
+      "deaths": "17"
+    },
+    {
+      "label": "Codeine or a codeine-containing compound",
+      "deaths": "4"
+    },
+    {
+      "label": "Dihydro-codeine or a d.h.c-containing compound",
+      "deaths": "4"
+    },
+    {
+      "label": "Any opiate or opioid",
+      "deaths": "22"
+    },
+    {
+      "label": "Benzodiazepines",
+      "deaths": "21"
+    },
+    {
+      "label": "Gabapentin and/or Pregabalin",
+      "deaths": "12"
+    },
+    {
+      "label": "Cocaine",
+      "deaths": "8"
+    },
+    {
+      "label": "Ecstasy-type",
+      "deaths": "0"
+    },
+    {
+      "label": "Amphetamines",
+      "deaths": "1"
+    },
+    {
+      "label": "Alcohol",
+      "deaths": "9"
+    }
+  ],
+  "Midlothian": [
+    {
+      "label": "All drug-related deaths",
+      "deaths": "14"
+    },
+    {
+      "label": "Heroin/morphine 2",
+      "deaths": "5"
+    },
+    {
+      "label": "Methadone",
+      "deaths": "8"
+    },
+    {
+      "label": "Heroin/morpine, Methadone or Buprenorphine",
+      "deaths": "10"
+    },
+    {
+      "label": "Codeine or a codeine-containing compound",
+      "deaths": "0"
+    },
+    {
+      "label": "Dihydro-codeine or a d.h.c-containing compound",
+      "deaths": "5"
+    },
+    {
+      "label": "Any opiate or opioid",
+      "deaths": "13"
+    },
+    {
+      "label": "Benzodiazepines",
+      "deaths": "11"
+    },
+    {
+      "label": "Gabapentin and/or Pregabalin",
+      "deaths": "7"
+    },
+    {
+      "label": "Cocaine",
+      "deaths": "3"
+    },
+    {
+      "label": "Ecstasy-type",
+      "deaths": "0"
+    },
+    {
+      "label": "Amphetamines",
+      "deaths": "0"
+    },
+    {
+      "label": "Alcohol",
+      "deaths": "2"
+    }
+  ],
+  "Moray": [
+    {
+      "label": "All drug-related deaths",
+      "deaths": "17"
+    },
+    {
+      "label": "Heroin/morphine 2",
+      "deaths": "7"
+    },
+    {
+      "label": "Methadone",
+      "deaths": "8"
+    },
+    {
+      "label": "Heroin/morpine, Methadone or Buprenorphine",
+      "deaths": "12"
+    },
+    {
+      "label": "Codeine or a codeine-containing compound",
+      "deaths": "1"
+    },
+    {
+      "label": "Dihydro-codeine or a d.h.c-containing compound",
+      "deaths": "3"
+    },
+    {
+      "label": "Any opiate or opioid",
+      "deaths": "15"
+    },
+    {
+      "label": "Benzodiazepines",
+      "deaths": "11"
+    },
+    {
+      "label": "Gabapentin and/or Pregabalin",
+      "deaths": "9"
+    },
+    {
+      "label": "Cocaine",
+      "deaths": "1"
+    },
+    {
+      "label": "Ecstasy-type",
+      "deaths": "1"
+    },
+    {
+      "label": "Amphetamines",
+      "deaths": "3"
+    },
+    {
+      "label": "Alcohol",
+      "deaths": "8"
+    }
+  ],
+  "Eilean Siar": [
+    {
+      "label": "All drug-related deaths",
+      "deaths": "2"
+    },
+    {
+      "label": "Heroin/morphine 2",
+      "deaths": "0"
+    },
+    {
+      "label": "Methadone",
+      "deaths": "0"
+    },
+    {
+      "label": "Heroin/morpine, Methadone or Buprenorphine",
+      "deaths": "0"
+    },
+    {
+      "label": "Codeine or a codeine-containing compound",
+      "deaths": "1"
+    },
+    {
+      "label": "Dihydro-codeine or a d.h.c-containing compound",
+      "deaths": "0"
+    },
+    {
+      "label": "Any opiate or opioid",
+      "deaths": "1"
+    },
+    {
+      "label": "Benzodiazepines",
+      "deaths": "1"
+    },
+    {
+      "label": "Gabapentin and/or Pregabalin",
+      "deaths": "1"
+    },
+    {
+      "label": "Cocaine",
+      "deaths": "0"
+    },
+    {
+      "label": "Ecstasy-type",
+      "deaths": "1"
+    },
+    {
+      "label": "Amphetamines",
+      "deaths": "0"
+    },
+    {
+      "label": "Alcohol",
+      "deaths": "0"
+    }
+  ],
+  "North Ayrshire": [
+    {
+      "label": "All drug-related deaths",
+      "deaths": "38"
+    },
+    {
+      "label": "Heroin/morphine 2",
+      "deaths": "15"
+    },
+    {
+      "label": "Methadone",
+      "deaths": "29"
+    },
+    {
+      "label": "Heroin/morpine, Methadone or Buprenorphine",
+      "deaths": "33"
+    },
+    {
+      "label": "Codeine or a codeine-containing compound",
+      "deaths": "0"
+    },
+    {
+      "label": "Dihydro-codeine or a d.h.c-containing compound",
+      "deaths": "3"
+    },
+    {
+      "label": "Any opiate or opioid",
+      "deaths": "33"
+    },
+    {
+      "label": "Benzodiazepines",
+      "deaths": "33"
+    },
+    {
+      "label": "Gabapentin and/or Pregabalin",
+      "deaths": "30"
+    },
+    {
+      "label": "Cocaine",
+      "deaths": "6"
+    },
+    {
+      "label": "Ecstasy-type",
+      "deaths": "1"
+    },
+    {
+      "label": "Amphetamines",
+      "deaths": "3"
+    },
+    {
+      "label": "Alcohol",
+      "deaths": "20"
+    }
+  ],
+  "North Lanarkshire": [
+    {
+      "label": "All drug-related deaths",
+      "deaths": "72"
+    },
+    {
+      "label": "Heroin/morphine 2",
+      "deaths": "37"
+    },
+    {
+      "label": "Methadone",
+      "deaths": "29"
+    },
+    {
+      "label": "Heroin/morpine, Methadone or Buprenorphine",
+      "deaths": "51"
+    },
+    {
+      "label": "Codeine or a codeine-containing compound",
+      "deaths": "11"
+    },
+    {
+      "label": "Dihydro-codeine or a d.h.c-containing compound",
+      "deaths": "16"
+    },
+    {
+      "label": "Any opiate or opioid",
+      "deaths": "64"
+    },
+    {
+      "label": "Benzodiazepines",
+      "deaths": "59"
+    },
+    {
+      "label": "Gabapentin and/or Pregabalin",
+      "deaths": "39"
+    },
+    {
+      "label": "Cocaine",
+      "deaths": "22"
+    },
+    {
+      "label": "Ecstasy-type",
+      "deaths": "1"
+    },
+    {
+      "label": "Amphetamines",
+      "deaths": "1"
+    },
+    {
+      "label": "Alcohol",
+      "deaths": "29"
+    }
+  ],
+  "Orkney Islands": [
+    {
+      "label": "All drug-related deaths",
+      "deaths": "3"
+    },
+    {
+      "label": "Heroin/morphine 2",
+      "deaths": "1"
+    },
+    {
+      "label": "Methadone",
+      "deaths": "0"
+    },
+    {
+      "label": "Heroin/morpine, Methadone or Buprenorphine",
+      "deaths": "1"
+    },
+    {
+      "label": "Codeine or a codeine-containing compound",
+      "deaths": "0"
+    },
+    {
+      "label": "Dihydro-codeine or a d.h.c-containing compound",
+      "deaths": "2"
+    },
+    {
+      "label": "Any opiate or opioid",
+      "deaths": "2"
+    },
+    {
+      "label": "Benzodiazepines",
+      "deaths": "1"
+    },
+    {
+      "label": "Gabapentin and/or Pregabalin",
+      "deaths": "0"
+    },
+    {
+      "label": "Cocaine",
+      "deaths": "0"
+    },
+    {
+      "label": "Ecstasy-type",
+      "deaths": "1"
+    },
+    {
+      "label": "Amphetamines",
+      "deaths": "0"
+    },
+    {
+      "label": "Alcohol",
+      "deaths": "1"
+    }
+  ],
+  "Perth and Kinross": [
+    {
+      "label": "All drug-related deaths",
+      "deaths": "30"
+    },
+    {
+      "label": "Heroin/morphine 2",
+      "deaths": "12"
+    },
+    {
+      "label": "Methadone",
+      "deaths": "9"
+    },
+    {
+      "label": "Heroin/morpine, Methadone or Buprenorphine",
+      "deaths": "20"
+    },
+    {
+      "label": "Codeine or a codeine-containing compound",
+      "deaths": "2"
+    },
+    {
+      "label": "Dihydro-codeine or a d.h.c-containing compound",
+      "deaths": "4"
+    },
+    {
+      "label": "Any opiate or opioid",
+      "deaths": "27"
+    },
+    {
+      "label": "Benzodiazepines",
+      "deaths": "22"
+    },
+    {
+      "label": "Gabapentin and/or Pregabalin",
+      "deaths": "18"
+    },
+    {
+      "label": "Cocaine",
+      "deaths": "7"
+    },
+    {
+      "label": "Ecstasy-type",
+      "deaths": "1"
+    },
+    {
+      "label": "Amphetamines",
+      "deaths": "0"
+    },
+    {
+      "label": "Alcohol",
+      "deaths": "4"
+    }
+  ],
+  "Renfrewshire": [
+    {
+      "label": "All drug-related deaths",
+      "deaths": "50"
+    },
+    {
+      "label": "Heroin/morphine 2",
+      "deaths": "23"
+    },
+    {
+      "label": "Methadone",
+      "deaths": "27"
+    },
+    {
+      "label": "Heroin/morpine, Methadone or Buprenorphine",
+      "deaths": "44"
+    },
+    {
+      "label": "Codeine or a codeine-containing compound",
+      "deaths": "3"
+    },
+    {
+      "label": "Dihydro-codeine or a d.h.c-containing compound",
+      "deaths": "5"
+    },
+    {
+      "label": "Any opiate or opioid",
+      "deaths": "47"
+    },
+    {
+      "label": "Benzodiazepines",
+      "deaths": "41"
+    },
+    {
+      "label": "Gabapentin and/or Pregabalin",
+      "deaths": "24"
+    },
+    {
+      "label": "Cocaine",
+      "deaths": "10"
+    },
+    {
+      "label": "Ecstasy-type",
+      "deaths": "0"
+    },
+    {
+      "label": "Amphetamines",
+      "deaths": "3"
+    },
+    {
+      "label": "Alcohol",
+      "deaths": "26"
+    }
+  ],
+  "Scottish Borders": [
+    {
+      "label": "All drug-related deaths",
+      "deaths": "22"
+    },
+    {
+      "label": "Heroin/morphine 2",
+      "deaths": "10"
+    },
+    {
+      "label": "Methadone",
+      "deaths": "9"
+    },
+    {
+      "label": "Heroin/morpine, Methadone or Buprenorphine",
+      "deaths": "16"
+    },
+    {
+      "label": "Codeine or a codeine-containing compound",
+      "deaths": "0"
+    },
+    {
+      "label": "Dihydro-codeine or a d.h.c-containing compound",
+      "deaths": "5"
+    },
+    {
+      "label": "Any opiate or opioid",
+      "deaths": "20"
+    },
+    {
+      "label": "Benzodiazepines",
+      "deaths": "19"
+    },
+    {
+      "label": "Gabapentin and/or Pregabalin",
+      "deaths": "14"
+    },
+    {
+      "label": "Cocaine",
+      "deaths": "7"
+    },
+    {
+      "label": "Ecstasy-type",
+      "deaths": "3"
+    },
+    {
+      "label": "Amphetamines",
+      "deaths": "4"
+    },
+    {
+      "label": "Alcohol",
+      "deaths": "7"
+    }
+  ],
+  "Shetland Islands": [
+    {
+      "label": "All drug-related deaths",
+      "deaths": "0"
+    },
+    {
+      "label": "Heroin/morphine 2",
+      "deaths": "0"
+    },
+    {
+      "label": "Methadone",
+      "deaths": "0"
+    },
+    {
+      "label": "Heroin/morpine, Methadone or Buprenorphine",
+      "deaths": "0"
+    },
+    {
+      "label": "Codeine or a codeine-containing compound",
+      "deaths": "0"
+    },
+    {
+      "label": "Dihydro-codeine or a d.h.c-containing compound",
+      "deaths": "0"
+    },
+    {
+      "label": "Any opiate or opioid",
+      "deaths": "0"
+    },
+    {
+      "label": "Benzodiazepines",
+      "deaths": "0"
+    },
+    {
+      "label": "Gabapentin and/or Pregabalin",
+      "deaths": "0"
+    },
+    {
+      "label": "Cocaine",
+      "deaths": "0"
+    },
+    {
+      "label": "Ecstasy-type",
+      "deaths": "0"
+    },
+    {
+      "label": "Amphetamines",
+      "deaths": "0"
+    },
+    {
+      "label": "Alcohol",
+      "deaths": "0"
+    }
+  ],
+  "South Ayrshire": [
+    {
+      "label": "All drug-related deaths",
+      "deaths": "15"
+    },
+    {
+      "label": "Heroin/morphine 2",
+      "deaths": "12"
+    },
+    {
+      "label": "Methadone",
+      "deaths": "13"
+    },
+    {
+      "label": "Heroin/morpine, Methadone or Buprenorphine",
+      "deaths": "15"
+    },
+    {
+      "label": "Codeine or a codeine-containing compound",
+      "deaths": "1"
+    },
+    {
+      "label": "Dihydro-codeine or a d.h.c-containing compound",
+      "deaths": "4"
+    },
+    {
+      "label": "Any opiate or opioid",
+      "deaths": "15"
+    },
+    {
+      "label": "Benzodiazepines",
+      "deaths": "13"
+    },
+    {
+      "label": "Gabapentin and/or Pregabalin",
+      "deaths": "11"
+    },
+    {
+      "label": "Cocaine",
+      "deaths": "2"
+    },
+    {
+      "label": "Ecstasy-type",
+      "deaths": "0"
+    },
+    {
+      "label": "Amphetamines",
+      "deaths": "1"
+    },
+    {
+      "label": "Alcohol",
+      "deaths": "6"
+    }
+  ],
+  "South Lanarkshire": [
+    {
+      "label": "All drug-related deaths",
+      "deaths": "58"
+    },
+    {
+      "label": "Heroin/morphine 2",
+      "deaths": "26"
+    },
+    {
+      "label": "Methadone",
+      "deaths": "27"
+    },
+    {
+      "label": "Heroin/morpine, Methadone or Buprenorphine",
+      "deaths": "38"
+    },
+    {
+      "label": "Codeine or a codeine-containing compound",
+      "deaths": "10"
+    },
+    {
+      "label": "Dihydro-codeine or a d.h.c-containing compound",
+      "deaths": "10"
+    },
+    {
+      "label": "Any opiate or opioid",
+      "deaths": "48"
+    },
+    {
+      "label": "Benzodiazepines",
+      "deaths": "42"
+    },
+    {
+      "label": "Gabapentin and/or Pregabalin",
+      "deaths": "25"
+    },
+    {
+      "label": "Cocaine",
+      "deaths": "12"
+    },
+    {
+      "label": "Ecstasy-type",
+      "deaths": "3"
+    },
+    {
+      "label": "Amphetamines",
+      "deaths": "4"
+    },
+    {
+      "label": "Alcohol",
+      "deaths": "26"
+    }
+  ],
+  "Stirling": [
+    {
+      "label": "All drug-related deaths",
+      "deaths": "19"
+    },
+    {
+      "label": "Heroin/morphine 2",
+      "deaths": "12"
+    },
+    {
+      "label": "Methadone",
+      "deaths": "8"
+    },
+    {
+      "label": "Heroin/morpine, Methadone or Buprenorphine",
+      "deaths": "14"
+    },
+    {
+      "label": "Codeine or a codeine-containing compound",
+      "deaths": "2"
+    },
+    {
+      "label": "Dihydro-codeine or a d.h.c-containing compound",
+      "deaths": "1"
+    },
+    {
+      "label": "Any opiate or opioid",
+      "deaths": "18"
+    },
+    {
+      "label": "Benzodiazepines",
+      "deaths": "15"
+    },
+    {
+      "label": "Gabapentin and/or Pregabalin",
+      "deaths": "6"
+    },
+    {
+      "label": "Cocaine",
+      "deaths": "6"
+    },
+    {
+      "label": "Ecstasy-type",
+      "deaths": "0"
+    },
+    {
+      "label": "Amphetamines",
+      "deaths": "0"
+    },
+    {
+      "label": "Alcohol",
+      "deaths": "8"
+    }
+  ],
+  "West Dunbartonshire": [
+    {
+      "label": "All drug-related deaths",
+      "deaths": "20"
+    },
+    {
+      "label": "Heroin/morphine 2",
+      "deaths": "12"
+    },
+    {
+      "label": "Methadone",
+      "deaths": "6"
+    },
+    {
+      "label": "Heroin/morpine, Methadone or Buprenorphine",
+      "deaths": "17"
+    },
+    {
+      "label": "Codeine or a codeine-containing compound",
+      "deaths": "1"
+    },
+    {
+      "label": "Dihydro-codeine or a d.h.c-containing compound",
+      "deaths": "1"
+    },
+    {
+      "label": "Any opiate or opioid",
+      "deaths": "18"
+    },
+    {
+      "label": "Benzodiazepines",
+      "deaths": "16"
+    },
+    {
+      "label": "Gabapentin and/or Pregabalin",
+      "deaths": "9"
+    },
+    {
+      "label": "Cocaine",
+      "deaths": "8"
+    },
+    {
+      "label": "Ecstasy-type",
+      "deaths": "0"
+    },
+    {
+      "label": "Amphetamines",
+      "deaths": "0"
+    },
+    {
+      "label": "Alcohol",
+      "deaths": "10"
+    }
+  ],
+  "West Lothian": [
+    {
+      "label": "All drug-related deaths",
+      "deaths": "25"
+    },
+    {
+      "label": "Heroin/morphine 2",
+      "deaths": "12"
+    },
+    {
+      "label": "Methadone",
+      "deaths": "8"
+    },
+    {
+      "label": "Heroin/morpine, Methadone or Buprenorphine",
+      "deaths": "19"
+    },
+    {
+      "label": "Codeine or a codeine-containing compound",
+      "deaths": "2"
+    },
+    {
+      "label": "Dihydro-codeine or a d.h.c-containing compound",
+      "deaths": "4"
+    },
+    {
+      "label": "Any opiate or opioid",
+      "deaths": "22"
+    },
+    {
+      "label": "Benzodiazepines",
+      "deaths": "18"
+    },
+    {
+      "label": "Gabapentin and/or Pregabalin",
+      "deaths": "10"
+    },
+    {
+      "label": "Cocaine",
+      "deaths": "9"
+    },
+    {
+      "label": "Ecstasy-type",
+      "deaths": "1"
+    },
+    {
+      "label": "Amphetamines",
+      "deaths": "0"
+    },
+    {
+      "label": "Alcohol",
+      "deaths": "9"
+    }
+  ]
 }

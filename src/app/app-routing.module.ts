@@ -1,13 +1,11 @@
 
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import { LineChartComponent } from './line-chart/line-chart.component';
-import { BarChartComponent } from './bar-chart/bar-chart.component';
+import { MainAppComponent } from './main-app/main-app.component';
 
 
 const routes: Routes = [
-  { path: 'line-chart', component: LineChartComponent },
-  { path: 'bar-chart', component: BarChartComponent },
+  { path: 'main-app', component: MainAppComponent },
 ];
 
 @NgModule({

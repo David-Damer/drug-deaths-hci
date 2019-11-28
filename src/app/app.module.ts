@@ -4,19 +4,17 @@ import { ChartsModule } from 'ng2-charts';
 
 import { HttpClientModule } from '@angular/common/http';
 import { AppComponent } from './app.component';
-import { BarChartComponent } from './bar-chart/bar-chart.component';
-import { LineChartComponent } from './line-chart/line-chart.component';
-import { ShapeService} from './shape.service';
+import { MainAppComponent } from './main-app/main-app.component';
+import { DataService} from './data.service';
 import { PopUpService} from './pop-up.service';
 import { AppRoutingModule } from './app-routing.module';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import {MatCardModule} from '@angular/material';
+import {MatButtonToggleModule, MatCardModule, MatTableModule} from '@angular/material';
 
 @NgModule({
   declarations: [
     AppComponent,
-    BarChartComponent,
-    LineChartComponent
+    MainAppComponent
   ],
   imports: [
     BrowserModule,
@@ -25,9 +23,11 @@ import {MatCardModule} from '@angular/material';
     HttpClientModule,
     BrowserAnimationsModule,
     MatCardModule,
+    MatButtonToggleModule,
+    MatTableModule,
   ],
   providers: [
-    ShapeService,
+    DataService,
     PopUpService
   ],
   bootstrap: [AppComponent]
