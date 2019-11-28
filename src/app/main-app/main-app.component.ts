@@ -1,6 +1,6 @@
 import {Component, AfterViewInit} from '@angular/core';
 import * as L from 'leaflet';
-import {ShapeService} from '../shape.service';
+import {DataSevice} from '../data.sevice';
 import {PopUpService} from '../pop-up.service';
 
 @Component({
@@ -10,7 +10,7 @@ import {PopUpService} from '../pop-up.service';
 })
 export class BarChartComponent implements AfterViewInit {
 
-  constructor(private shapeService: ShapeService,
+  constructor(private dataSevice: DataSevice,
               private popupService: PopUpService) {
   }
 
@@ -46,7 +46,7 @@ export class BarChartComponent implements AfterViewInit {
 
   private selectFeature(e: any) {
     const layer = e.target;
-    if (!this.selectedOne){
+    if (!this.selectedOne) {
       this.selectedOne = layer.feature.properties.LAD13NM;
     } else {
       this.selectedTwo = layer.feature.properties.LAD13NM;
@@ -55,7 +55,7 @@ export class BarChartComponent implements AfterViewInit {
 
   ngAfterViewInit(): void {
     this.initMap();
-    this.shapeService.getLocalAuthorityShapes().subscribe(shapes => {
+    this.dataSevice.getLocalAuthorityShapes().subscribe(shapes => {
       this.localAuthorities = shapes;
       this.initLALayer();
     });
@@ -64,7 +64,8 @@ export class BarChartComponent implements AfterViewInit {
   private initMap(): void {
     this.map = L.map('map').setView([56.8642, -4.2518], 7);
     const tiles = L.tileLayer(`https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token=${this.token}`, {
-      maxZoom: 19,
+      maxZoom: 10,
+      minZoom: 6,
       id: 'mapbox.satellite',
       attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
     });

@@ -5,7 +5,7 @@ import {HttpClient} from '@angular/common/http';
 @Injectable({
   providedIn: 'root'
 })
-export class ShapeService {
+export class DataSevice {
 
   constructor(private http: HttpClient) {
   }
