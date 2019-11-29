@@ -2,7 +2,7 @@
 .map-container {
   position: absolute;
   top: 0;
-  left: 0;
+  left: 5%;
   right: 20%;
   bottom: 25%;
   margin: 10px;
@@ -17,16 +17,18 @@
 #map {
   height: 100%;
 }
-.details-container{
+
+.details-container {
   position: absolute;
   top: 0;
-  left:79%;
+  left: 79%;
   right: 0;
   bottom: 24.5%;
   border: 2px solid black;
   margin: 10px;
   overflow: scroll;
 }
+
 .long-bar-chart {
   position: absolute;
   top: 73.5%;
@@ -36,4 +38,14 @@
   border: 2px solid black;
   margin: 10px;
   overflow: scroll;
+}
+
+.button-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 94.5%;
+  bottom: 25%;
+  border: 2px solid black;
+  margin: 10px;
 }

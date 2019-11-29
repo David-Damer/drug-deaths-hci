@@ -19,6 +19,12 @@ export class MainAppComponent implements AfterViewInit, OnInit {
   public barChartOptions: ChartOptions = {
     responsive: true,
     maintainAspectRatio: false,
+    legend: {
+      labels: {
+        fontSize: 6,
+        usePointStyle: true,
+      }
+    },
     // We use these empty structures as placeholders for dynamic theming.
     scales: {xAxes: [{}], yAxes: [{}]},
   };
@@ -28,7 +34,7 @@ export class MainAppComponent implements AfterViewInit, OnInit {
   public barChartLabels: Label[] = ['All', 'Heroin/morphine 2', 'Methadone', 'Heroin/Methadone/Buprenorphine', 'Codeine', 'Dihydrocodeine'
     , 'Opiates', 'Benzodiazepines', 'Gabapentin/Pregabalin', 'Cocaine', 'Ecstacy', 'Amphetamines', 'Alcohol'];
   public barChartType: ChartType = 'bar';
-  public barChartLegend = false;
+  public barChartLegend = true;
 
   private selectedOne: string;
   private selectedTwo: string;
@@ -50,7 +56,7 @@ export class MainAppComponent implements AfterViewInit, OnInit {
     layer.setStyle({
       weight: 10,
       opacity: 1.0,
-      color: '#DFA612',
+      color: '#FF0000',
       fillOpacity: 1.0,
       fillColor: '#FAE042',
     });
