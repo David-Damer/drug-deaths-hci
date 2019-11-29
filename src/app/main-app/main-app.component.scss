@@ -6,6 +6,7 @@
   right: 20%;
   bottom: 25%;
   margin: 10px;
+  overflow: scroll;
 }
 
 .map-frame {
@@ -24,6 +25,7 @@
   bottom: 24.5%;
   border: 2px solid black;
   margin: 10px;
+  overflow: scroll;
 }
 .long-bar-chart {
   position: absolute;
@@ -33,4 +35,5 @@
   right: 0;
   border: 2px solid black;
   margin: 10px;
+  overflow: scroll;
 }
