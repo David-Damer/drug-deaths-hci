@@ -9,7 +9,7 @@ import { DataService} from './data.service';
 import { PopUpService} from './pop-up.service';
 import { AppRoutingModule } from './app-routing.module';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import {MatButtonToggleModule, MatCardModule, MatTableModule} from '@angular/material';
+import {MatButtonToggleModule, MatCardModule, MatIconModule, MatTableModule} from '@angular/material';
 
 @NgModule({
   declarations: [
@@ -25,6 +25,7 @@ import {MatButtonToggleModule, MatCardModule, MatTableModule} from '@angular/mat
     MatCardModule,
     MatButtonToggleModule,
     MatTableModule,
+    MatIconModule,
   ],
   providers: [
     DataService,

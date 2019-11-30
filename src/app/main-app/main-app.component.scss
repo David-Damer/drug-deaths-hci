@@ -3,14 +3,14 @@
   position: absolute;
   top: 0;
   left: 5%;
-  right: 20%;
-  bottom: 25%;
+  right: 20.5%;
+  bottom: 24.5%;
   margin: 10px;
+  border: 2px double black;
   overflow: scroll;
 }
 
 .map-frame {
-  border: 2px solid black;
   height: 100%;
 }
 
@@ -45,7 +45,11 @@
   top: 0;
   left: 0;
   right: 94.5%;
-  bottom: 25%;
+  bottom: 24.5%;
   border: 2px solid black;
   margin: 10px;
+}
+.button {
+  width: 100%;
+  font-size: 50%;
 }

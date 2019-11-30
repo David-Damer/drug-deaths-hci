@@ -36,13 +36,9 @@ export class MainAppComponent implements AfterViewInit, OnInit {
   public barChartType: ChartType = 'bar';
   public barChartLegend = true;
 
-  private selectedOne: string;
-  private selectedTwo: string;
   private map;
   private token = 'pk.eyJ1IjoiMjI2Njk4MGQiLCJhIjoiY2puNjNsYmtlMDB1NTNxcW13bXZ1NWFsaiJ9.XFlV393S5b13Bd5jd1AgnA';
   private localAuthorities;
-  private showDetails = true;
-  private showCompare = false;
   private drugData;
   private tableData;
   private displayedColumns: string[] = ['drugs', 'deaths'];
@@ -50,6 +46,10 @@ export class MainAppComponent implements AfterViewInit, OnInit {
   private colours = ['#000000', '#080000', '#100000', '#180000', '#200000', '#280000', '#300000', '#380000', '#400000', '#480000',
     '#500000', '#580000', '#600000', '#680000', '#700000', '#780000', '#800000', '#880000', '#900000', '#980000', '#A00000', '#A80000',
     '#B00000', '#B80000', '#C00000', '#C80000', '#D00000', '#D80000', '#E00000', '#E80000', '#F00000', '#F80000', '#FF0000'];
+  private details = true;
+  private detailsString = 'toggle_off';
+  private firstSelected = '';
+  private secondSelected = '';
 
   private static highlightFeature(e) {
     const layer = e.target;
@@ -73,26 +73,35 @@ export class MainAppComponent implements AfterViewInit, OnInit {
     });
   }
 
+  private clearSelected(): void {
+    this.firstSelected = '';
+    this.secondSelected = '';
+  }
+
+  private toggleDetails(): void {
+    this.details = !this.details;
+    if (this.details) {
+      this.detailsString = 'toggle_off';
+    } else {
+      this.detailsString = 'toggle_on';
+    }
+  }
+
   ngOnInit(): void {
     this.dataService.getDrugDeaths().subscribe(data => {
         this.drugData = data;
         this.initialiseChartData();
       },
     );
-    console.log(this.colours.length);
   }
 
-  private toggleDetails(): void {
-    this.showDetails = !this.showDetails;
-    this.showCompare = !this.showCompare;
-  }
 
   private selectFeature(e: any) {
     const layer = e.target;
-    if (!this.selectedOne) {
-      this.selectedOne = layer.feature.properties.LAD13NM;
+    if (!this.firstSelected) {
+      this.firstSelected = layer.feature.properties.LAD13NM;
     } else {
-      this.selectedTwo = layer.feature.properties.LAD13NM;
+      this.secondSelected = layer.feature.properties.LAD13NM;
     }
   }
 
@@ -119,8 +128,10 @@ export class MainAppComponent implements AfterViewInit, OnInit {
   }
 
   private showTable(region: string): void {
-    this.tableData = this.drugData[region];
-    this.heading = region;
+    if (!this.firstSelected) {
+      this.tableData = this.drugData[region];
+      this.heading = region;
+    }
   }
 
 
@@ -147,6 +158,7 @@ export class MainAppComponent implements AfterViewInit, OnInit {
       }),
       onEachFeature: (feature, layer) => (
         layer.on({
+          click: (e) => (this.selectFeature(e)),
           mouseover: (e) => (MainAppComponent.highlightFeature(e),
             this.showTable(feature.properties.LAD13NM)),
           mouseout: (e) => (MainAppComponent.resetFeature(e),

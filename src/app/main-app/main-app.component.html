@@ -20,7 +20,7 @@
 </div>
 <div class="details-container">
 
-  <div *ngIf="showDetails" class="details-panel">
+  <div *ngIf="details" class="details-panel">
     <table mat-table [dataSource]="tableData">
 
       <ng-container matColumnDef="drugs">
@@ -41,11 +41,12 @@
 
     </table>
   </div>
-  <div *ngIf="showCompare" class="compare-chart">
-    Comparison
+  <div *ngIf="!details" class="compare-chart">
+    This will be a graph!
   </div>
 
 </div>
 <div class="button-container">
-
+  <button class="button" (click)="toggleDetails()" id="details-graph"><mat-icon>{{detailsString}}</mat-icon>Details/Graph</button>
+  <button class="button" (click)="clearSelected()">Clear selected</button>
 </div>
