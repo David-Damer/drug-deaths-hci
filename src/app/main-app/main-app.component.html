@@ -7,7 +7,7 @@
   <div>
     <div>
       <div style="display: block">
-        <canvas baseChart height="225px"
+        <canvas baseChart height="220%"
                 [datasets]="barChartData"
                 [labels]="barChartLabels"
                 [options]="barChartOptions"
@@ -43,21 +43,20 @@
   </div>
   <div *ngIf="!details" class="compare-chart">
     <div>
-      <div>
-        <div style="display: block">
-          <canvas baseChart height="100%" width="100%"
-                  [datasets]="compareChartData"
-                  [labels]="barChartLabels"
-                  [options]="barChartOptions"
-                  [legend]="barChartLegend"
-                  [chartType]="barChartType">
-          </canvas>
-        </div>
-      </div>
+      <canvas baseChart height="700%" width="10%"
+              [datasets]="compareChartData"
+              [labels]="barChartLabels"
+              [options]="barChartOptions"
+              [legend]="barChartLegend"
+              [chartType]="barChartType">
+      </canvas>
     </div>
   </div>
 </div>
 <div class="button-container">
-  <button class="button" (click)="toggleDetails()" id="details-graph"><mat-icon>{{detailsString}}</mat-icon>Details/Graph</button>
+  <button class="button" (click)="toggleDetails()" id="details-graph">
+    <mat-icon>{{detailsString}}</mat-icon>
+    Details/Graph
+  </button>
   <button class="button" (click)="clearSelected()">Clear selected</button>
 </div>

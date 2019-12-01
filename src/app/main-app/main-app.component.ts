@@ -109,7 +109,7 @@ export class MainAppComponent implements AfterViewInit, OnInit {
           }
         }
       }
-      this.LADs = this.LADs.sort((a, b) => (a.ratio > b.ratio) ? 1 : -1);
+      this.LADs = this.LADs.sort((a, b) => (a.ratio < b.ratio) ? 1 : -1);
       let i = 0;
       for (const lad of this.LADs) {
         lad.colour = this.colours[i];
