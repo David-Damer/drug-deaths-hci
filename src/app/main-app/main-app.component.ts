@@ -60,11 +60,11 @@ export class MainAppComponent implements AfterViewInit, OnInit {
   private static highlightFeature(e) {
     const layer = e.target;
     layer.setStyle({
-      weight: 10,
+      weight: 3,
       opacity: 1.0,
-      color: '#FF0000',
+      color: '#FFFF00',
       fillOpacity: 1.0,
-      fillColor: '#FAE042',
+      fillColor: MainAppComponent.colourMap.get(layer.feature.properties.LAD13NM),
     });
   }
 
@@ -73,9 +73,9 @@ export class MainAppComponent implements AfterViewInit, OnInit {
     layer.setStyle({
       weight: 3,
       opacity: 0.5,
-      color: '#008f68',
+      color: MainAppComponent.colourMap.get(layer.feature.properties.LAD13NM),
       fillOpacity: 0.8,
-      fillColor: '#6DB65B'
+      fillColor: MainAppComponent.colourMap.get(layer.feature.properties.LAD13NM)
     });
   }
 
@@ -131,6 +131,7 @@ export class MainAppComponent implements AfterViewInit, OnInit {
       }
       this.barChartData = newChartData;
       MainAppComponent.colourMap = new Map(colourArray);
+      console.log(MainAppComponent.colourMap);
     });
   }
 
@@ -196,9 +197,9 @@ export class MainAppComponent implements AfterViewInit, OnInit {
       style: (feature) => ({
         weight: 3,
         opacity: 0.5,
-        color: '#008f68',
+        color: MainAppComponent.colourMap.get(feature.properties.LAD13NM),
         fillOpacity: 0.8,
-        fillColor: '#6DB65B'
+        fillColor: MainAppComponent.colourMap.get(feature.properties.LAD13NM)
       }),
       onEachFeature: (feature, layer) => (
         layer.on({
