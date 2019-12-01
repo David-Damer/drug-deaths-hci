@@ -81,7 +81,7 @@ export class MainAppComponent implements AfterViewInit, OnInit {
 
   private clearSelected(): void {
     this.firstSelected = '';
-    this.secondSelected = '';
+    this.compareChartData = [];
   }
 
   private toggleDetails(): void {
@@ -124,6 +124,7 @@ export class MainAppComponent implements AfterViewInit, OnInit {
             newChartData.push(chartDatum);
           }
         }
+        this.initialiseCompareGraph();
       }
       const colourArray = [];
       for (const lad of this.LADs) {
@@ -138,10 +139,13 @@ export class MainAppComponent implements AfterViewInit, OnInit {
 
   private selectFeature(e: any) {
     const layer = e.target;
-    if (!this.firstSelected) {
-      this.firstSelected = layer.feature.properties.LAD13NM;
-    } else {
-      this.secondSelected = layer.feature.properties.LAD13NM;
+    this.firstSelected = layer.feature.properties.LAD13NM;
+    for (const data of this.barChartData) {
+        if (data.label === this.firstSelected) {
+          if (this.compareChartData.findIndex(x => x === data) === -1) {
+            this.compareChartData.push(data);
+          }
+      }
     }
   }
 
@@ -171,12 +175,18 @@ export class MainAppComponent implements AfterViewInit, OnInit {
       this.barChartData.push(dataObj);
     }
   }
+  private initialiseCompareGraph(): void {
+    this.compareChartData.pop();
+    for (const data of this.barChartData) {
+      if (data.label === 'Scotland') {
+        this.compareChartData.push(data);
+      }
+    }
+  }
 
   private showTable(region: string): void {
-    if (!this.firstSelected) {
       this.tableData = this.drugData[region];
       this.heading = region;
-    }
   }
 
 
