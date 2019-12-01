@@ -11,6 +11,7 @@ import {Label} from 'ng2-charts';
   styleUrls: ['./main-app.component.scss']
 })
 export class MainAppComponent implements AfterViewInit, OnInit {
+  private static colourMap: any;
 
   constructor(private dataService: DataService,
               private popupService: PopUpService) {
@@ -124,9 +125,13 @@ export class MainAppComponent implements AfterViewInit, OnInit {
           }
         }
       }
+      const colourArray = [];
+      for (const lad of this.LADs) {
+        colourArray.push([lad.region, lad.colour]);
+      }
       this.barChartData = newChartData;
+      MainAppComponent.colourMap = new Map(colourArray);
     });
-    console.log(this.LADs);
   }
 
 
