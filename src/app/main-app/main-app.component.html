@@ -42,9 +42,20 @@
     </table>
   </div>
   <div *ngIf="!details" class="compare-chart">
-    This will be a graph!
+    <div>
+      <div>
+        <div style="display: block">
+          <canvas baseChart height="100%"
+                  [datasets]="compareChartData"
+                  [labels]="barChartLabels"
+                  [options]="barChartOptions"
+                  [legend]="barChartLegend"
+                  [chartType]="barChartType">
+          </canvas>
+        </div>
+      </div>
+    </div>
   </div>
-
 </div>
 <div class="button-container">
   <button class="button" (click)="toggleDetails()" id="details-graph"><mat-icon>{{detailsString}}</mat-icon>Details/Graph</button>
