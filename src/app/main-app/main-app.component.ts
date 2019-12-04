@@ -49,9 +49,9 @@ export class MainAppComponent implements AfterViewInit, OnInit {
   private displayedColumns: string[] = ['drugs', 'deaths'];
   private heading: string;
   private LADs = [];
-  private colours = ['#fff', '#fefaf7', '#fcf2e8', '#fae9d9', '#f8e0ca', '#f6d8bb', '#f4cfab', '#f2c69c', '#f1bd8d', '#efb57e',
-    '#edac6f', '#eba360', '#e99b51', '#e79242', '#e58933', '#e38124', '#da781c', '#cb701a', '#bc6818', '#ad5f16', '#9e5714', '#8f4f12',
-    '#804610', '#713e0e', '#62360c', '#532e0b', '#442509', '#351d07', '#251505', '#160c03', '#070401', '#000', '#FF0000'];
+  private colours = ['#000000', '#080000', '#100000', '#180000', '#200000', '#280000', '#300000', '#380000', '#400000', '#480000',
+    '#500000', '#580000', '#600000', '#680000', '#700000', '#780000', '#800000', '#880000', '#900000', '#980000', '#A00000', '#A80000',
+    '#B00000', '#B80000', '#C00000', '#C80000', '#D00000', '#D80000', '#E00000', '#E80000', '#F00000', '#F80000', '#FF0000'];
   private details = true;
   private detailsString = 'toggle_off';
   private firstSelected = '';
