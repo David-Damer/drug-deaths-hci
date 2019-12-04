@@ -161,24 +161,26 @@ export class MainAppComponent implements AfterViewInit, OnInit {
   private initialiseChartData() {
     this.barChartData.pop();
     for (const val of Object.keys(this.drugData)) {
-      const regionTotals = {region: val, population: 0, totalDeaths: 0, ratio: 0, colour: ''};
-      const dataObj = {label: val, data: [], borderColor: '#008f68', fill: true, backgroundColor: '#008f68'};
-      const data = [];
-      for (const item of this.drugData[val]) {
-        data.push(parseInt(item.deaths, 10));
-        if (item.label === 'All drug-related deaths') {
-          regionTotals.totalDeaths = parseInt(item.deaths, 10);
+      if (val !== 'Scotland') {
+        const regionTotals = {region: val, population: 0, totalDeaths: 0, ratio: 0, colour: ''};
+        const dataObj = {label: val, data: [], borderColor: '#008f68', fill: true, backgroundColor: '#008f68'};
+        const data = [];
+        for (const item of this.drugData[val]) {
+          data.push(parseInt(item.deaths, 10));
+          if (item.label === 'All drug-related deaths') {
+            regionTotals.totalDeaths = parseInt(item.deaths, 10);
+          }
         }
+        this.LADs.push(regionTotals);
+        dataObj.data = data;
+        this.barChartData.push(dataObj);
       }
-      this.LADs.push(regionTotals);
-      dataObj.data = data;
-      this.barChartData.push(dataObj);
     }
   }
   private initialiseCompareGraph(): void {
     this.compareChartData.pop();
     for (const data of this.barChartData) {
-      if (data.label === 'Scotland') {
+      if (data.label === 'Highland') {
         this.compareChartData.push(data);
       }
     }
