@@ -21,7 +21,7 @@
 <div class="details-container">
 
   <div *ngIf="details" class="details-panel">
-    <table mat-table [dataSource]="tableData">
+    <table mat-table aria-label="Table of data" [dataSource]="tableData">
 
       <ng-container matColumnDef="drugs">
         <th mat-header-cell *matHeaderCellDef>
@@ -54,9 +54,9 @@
   </div>
 </div>
 <div class="button-container">
-  <button class="button" (click)="toggleDetails()" id="details-graph">
+  <button aria-label="Toggle details or graph" class="button" (click)="toggleDetails()" id="details-graph">
     <mat-icon>{{detailsString}}</mat-icon>
     Details/Graph
   </button>
-  <button class="button" (click)="clearSelected()">Clear selected</button>
+  <button class="button" aria-label="Clear Selected" (click)="clearSelected()">Clear selected</button>
 </div>
